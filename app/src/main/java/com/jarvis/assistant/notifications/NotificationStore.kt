@@ -1,5 +1,7 @@
 package com.jarvis.assistant.notifications
 
+import android.content.Context
+
 data class CapturedNotification(val id: Int, val pkg: String, val app: String, val sender: String?, val text: String, val at: Long, val canReply: Boolean)
 
 object NotificationStore {
